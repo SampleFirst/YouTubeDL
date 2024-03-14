@@ -1,0 +1,36 @@
+{
+    "name": "YOUTUBE DL BOT",
+    "description": "YOUTUBE DOWNLOADER BOT",
+    "keywords": [
+        "YOUTUBE",
+        "TGBOT",
+        "YTDL",
+        "VIDEO"
+    ],
+    "logo": "https://telegra.ph/file/7e56d907542396289fee4.jpg",
+    "repository": "https://github.com/hbbots/YOUTUBE-BOT",
+    "env": {
+        "WEBHOOK": {
+            "description": "LEAVE IT",
+            "value": "ANYTHING"
+        },
+        "BOT_TOKEN": {
+            "description": "YOUR BOT TOKEN FROM @BotFather",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "YOUR API ID, USE @TeleORG_Bot  ",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "YOUR API HASH, USE @TeleORG_Bot ",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
